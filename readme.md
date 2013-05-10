@@ -17,7 +17,7 @@ This kind of detection lets you quickly deal with bugs.
 .lt_ie8 element { property: value;}
 
 /* Internet Explorer version greater than 6 */
-.lt_ie6 element { property: value;}
+.gt_ie6 element { property: value;}
 
 /* Target a version of browser */
 .moz3_6 element { property: value;}
