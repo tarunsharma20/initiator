@@ -41,7 +41,7 @@ This kind of detection lets you quickly deal with bugs.
 .desktop { property: value;}
 ```
 
-*Note: To define a browser version have decimal ('.') we have to replace it with underscore ('_')*
+*Note: To define a browser version have decimal ('.') we have to replace it with underscore ('-')*
 
 
 **CSS Prefix**
