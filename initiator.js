@@ -185,7 +185,7 @@
     else {
       /(\d+).(\d+)/.exec(version);
       var decimal = RegExp.$2
-      addPrefix(browser + ' ' + browser + parseInt(version) + '_' + decimal);
+      addPrefix(browser + ' ' + browser + parseInt(version) + '-' + decimal);
     }
   }
 

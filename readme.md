@@ -1,4 +1,4 @@
-# Initiator 1.0
+# Initiator 1.1
 
 Initiator is a JavaScript plugin that helps you define **CSS and JavaScript** to target any browser & its versions, device (phone, tablet, desktop), and platform (iPhone, Android, iPad).
 
@@ -14,13 +14,13 @@ This kind of detection lets you quickly deal with bugs.
 .ie element { property: value; }
 
 /* Internet Explorer version less than 8 */
-.lt_ie8 element { property: value;}
+.lt-ie8 element { property: value;}
 
 /* Internet Explorer version greater than 6 */
-.gt_ie6 element { property: value;}
+.gt-ie6 element { property: value;}
 
 /* Target a version of browser */
-.moz3_6 element { property: value;}
+.moz3-6 element { property: value;}
 
 /* Mac OS */
 .mac { property: value; }
