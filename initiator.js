@@ -1,5 +1,5 @@
 /*
- * Initiator v1.0 - (c) Tarun Sharma
+ * Initiator v1.1 - (c) Tarun Sharma
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -233,11 +233,11 @@
   // Object to create collection of vendor prefixes
   vendorPrefix = {
     ie        : 'ie',
-    ie6       : 'ie6 lt_ie10 lt_ie9 lt_ie8 lt_ie7',
-    ie7       : 'gt_ie6 ie7 lt_ie10 lt_ie9 lt_ie8',
-    ie8       : 'gt_ie6 gt_ie7 ie8 lt_ie10 lt_ie9',
-    ie9       : 'gt_ie6 gt_ie7 gt_ie8 ie9 lt_ie10',
-    ie10      : 'gt_ie6 gt_ie7 gt_ie8 gt_ie9 ie10',
+    ie6       : 'ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7',
+    ie7       : 'gt-ie6 ie7 lt-ie10 lt-ie9 lt-ie8',
+    ie8       : 'gt-ie6 gt-ie7 ie8 lt-ie10 lt-ie9',
+    ie9       : 'gt-ie6 gt-ie7 gt-ie8 ie9 lt-ie10',
+    ie10      : 'gt-ie6 gt-ie7 gt-ie8 gt-ie9 ie10',
     mozila    : 'moz',
     chrome    : 'chrome',
     safari    : 'safari',
